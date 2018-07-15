@@ -1,0 +1,16 @@
+{
+  "name": "type-blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.22"
+  }
+}
